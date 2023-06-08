@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DataFlowPipeline/1.0.0": {
+        "runtime": {
+          "DataFlowPipeline.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataFlowPipeline/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

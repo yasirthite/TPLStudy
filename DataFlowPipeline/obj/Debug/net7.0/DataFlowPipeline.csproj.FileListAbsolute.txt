@@ -1,0 +1,15 @@
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\bin\Debug\net7.0\DataFlowPipeline.exe
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\bin\Debug\net7.0\DataFlowPipeline.deps.json
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\bin\Debug\net7.0\DataFlowPipeline.runtimeconfig.json
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\bin\Debug\net7.0\DataFlowPipeline.dll
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\bin\Debug\net7.0\DataFlowPipeline.pdb
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\DataFlowPipeline.csproj.AssemblyReference.cache
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\DataFlowPipeline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\DataFlowPipeline.AssemblyInfoInputs.cache
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\DataFlowPipeline.AssemblyInfo.cs
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\DataFlowPipeline.csproj.CoreCompileInputs.cache
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\DataFlowPipeline.dll
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\refint\DataFlowPipeline.dll
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\DataFlowPipeline.pdb
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\DataFlowPipeline.genruntimeconfig.cache
+C:\Users\Aasuz\source\repos\DataFlowPipeline\DataFlowPipeline\obj\Debug\net7.0\ref\DataFlowPipeline.dll
