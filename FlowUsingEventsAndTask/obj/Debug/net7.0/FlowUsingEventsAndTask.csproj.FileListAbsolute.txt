@@ -1,0 +1,15 @@
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\bin\Debug\net7.0\FlowUsingEventsAndTask.exe
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\bin\Debug\net7.0\FlowUsingEventsAndTask.deps.json
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\bin\Debug\net7.0\FlowUsingEventsAndTask.runtimeconfig.json
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\bin\Debug\net7.0\FlowUsingEventsAndTask.dll
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\bin\Debug\net7.0\FlowUsingEventsAndTask.pdb
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\FlowUsingEventsAndTask.csproj.AssemblyReference.cache
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\FlowUsingEventsAndTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\FlowUsingEventsAndTask.AssemblyInfoInputs.cache
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\FlowUsingEventsAndTask.AssemblyInfo.cs
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\FlowUsingEventsAndTask.csproj.CoreCompileInputs.cache
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\FlowUsingEventsAndTask.dll
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\refint\FlowUsingEventsAndTask.dll
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\FlowUsingEventsAndTask.pdb
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\FlowUsingEventsAndTask.genruntimeconfig.cache
+C:\Users\Aasuz\source\repos\DataFlowPipeline\FlowUsingEventsAndTask\obj\Debug\net7.0\ref\FlowUsingEventsAndTask.dll
