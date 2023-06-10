@@ -10,6 +10,7 @@ namespace DataFlowPipeline
         private readonly string Uri;
         private TransformBlock<string, string> downloadString;
         private ActionBlock<string> printReversedWords;
+
         public DataProcessFlow(Stopwatch globalTimer, string uri)
         {
             this.globalTimer = globalTimer;
@@ -23,9 +24,11 @@ namespace DataFlowPipeline
 
             TransformBlock<string, string> downloadString = GetDownloadStringDataBlock();
             this.downloadString = downloadString;
+
             TransformBlock<string, string[]> createWordList = GetCreateWordListDataBlock();
             TransformBlock<string[], string[]> filterWordList = GetFilterWordListDataBlock();
             TransformManyBlock<string[], string> findReversedWords = GetFindReverseWordsDataBlock();
+
             ActionBlock<string> printReversedWords = GetPrintReverseWordsDataBlock();
             this.printReversedWords = printReversedWords;
 
@@ -33,15 +36,13 @@ namespace DataFlowPipeline
 
             TriggerPipelineExecution(downloadString, printReversedWords);
 
-            //Console.WriteLine($"Global Elapsed Time: {globalTimer.Elapsed.Seconds} sec(s) \n" +
-            //    $"Local Elapsed Time: {localTimer.Elapsed.Seconds} sec(s)" +
-            //    $"For Uri: {this.Uri}");
-
+            Console.WriteLine($"Global Elapsed Time: {globalTimer.Elapsed.Seconds} sec(s)");
             Console.WriteLine($"Local Elapsed Time: {localTimer.Elapsed.Seconds} sec(s)" +
                 $"For Uri: {this.Uri}");
 
             localTimer.Stop();
         }
+
         private void CreateDataFlowPipeline(TransformBlock<string, string> downloadString, TransformBlock<string, string[]> createWordList, TransformBlock<string[], string[]> filterWordList, TransformManyBlock<string[], string> findReversedWords, ActionBlock<string> printReversedWords)
         {
             var linkOptions = new DataflowLinkOptions { PropagateCompletion = true };
@@ -57,7 +58,7 @@ namespace DataFlowPipeline
             //The following SendAsync Method triggers data flow.
             downloadString.SendAsync(this.Uri);
             this.downloadString.Complete();
-            //Wait(downloadString, printReversedWords);
+            Wait();
         }
 
         public void Wait()
@@ -120,9 +121,9 @@ namespace DataFlowPipeline
         {
             return new TransformBlock<string, string>(async uri =>
             {
-                //Console.WriteLine($"Started Downloading [{uri}] \n Global Time Ellapsed: {globalTimer.ElapsedMilliseconds}");
+                Console.WriteLine($"Started Downloading [{uri}] \n Global Time Ellapsed: {globalTimer.ElapsedMilliseconds}");
                 var data = await new HttpClient(new HttpClientHandler { AutomaticDecompression = System.Net.DecompressionMethods.GZip }).GetStringAsync(uri = this.Uri);
-                //Console.WriteLine($"Finished Downloading [{uri}] \n Global Time Ellapsed: {globalTimer.ElapsedMilliseconds}");
+                Console.WriteLine($"Finished Downloading [{uri}] \n Global Time Ellapsed: {globalTimer.ElapsedMilliseconds}");
                 return data;
             });
         }
